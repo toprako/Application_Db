@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/popup_circle"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <GridView
+        android:id="@+id/activity_shop_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></GridView>
+
+    <Button
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:id="@+id/bt_activity_shop_done"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:text="Done"
+        android:textColor="@android:color/holo_red_dark" />
+</RelativeLayout>
